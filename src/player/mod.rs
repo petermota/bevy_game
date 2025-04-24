@@ -2,11 +2,9 @@ use bevy::prelude::*;
 
 mod components;
 mod systems;
-mod setup;
 
 use components::{PlayerVelocity, PlayerSpeed};
-use setup::spawn_player;
-use systems::{handle_player_input, apply_velocity};
+use systems::{spawn_player, handle_player_input, apply_velocity};
 
 /// Plugin responsible for player-related logic.
 pub struct PlayerPlugin;
