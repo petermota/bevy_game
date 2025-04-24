@@ -12,4 +12,3 @@ impl Plugin for CameraPlugin {
         app.add_systems(Startup, spawn_camera);
     }
 }
-
